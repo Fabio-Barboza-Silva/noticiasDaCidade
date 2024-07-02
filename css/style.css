@@ -1,0 +1,24 @@
+/*Estrutura do site*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #fff url(../imagens/imagens/fundo.png) repeat-x;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+#topo {
+  height: 150px;
+  background: url(../imagens/imagens/detalhe-topo.png) no-repeat right top;
+  border: 1px solid red;
+}
